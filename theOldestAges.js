@@ -18,4 +18,4 @@ function twoOldestAges(ages){
 return ages.sort((a,b)=>{return a-b}).slice(-2)
 }
 
-twoOldestAges(ages)
+
