@@ -10,7 +10,7 @@ function isPrime(num) {
     for (let i = 2; i < square + 1; i++) {
       if (num % i === 0) {
         prime = false
-      }
+      } 
     }
     return prime;
   }
